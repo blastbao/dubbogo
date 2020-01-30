@@ -16,10 +16,10 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/codec"
-	"github.com/AlexStocks/dubbogo/common"
-	"github.com/AlexStocks/dubbogo/registry"
-	"github.com/AlexStocks/dubbogo/transport"
+	"github.com/blastbao/dubbogo/codec"
+	"github.com/blastbao/dubbogo/common"
+	"github.com/blastbao/dubbogo/registry"
+	"github.com/blastbao/dubbogo/transport"
 )
 
 type Options struct {

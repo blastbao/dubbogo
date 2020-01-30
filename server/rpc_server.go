@@ -23,8 +23,8 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/common"
-	"github.com/AlexStocks/dubbogo/transport"
+	"github.com/blastbao/dubbogo/common"
+	"github.com/blastbao/dubbogo/transport"
 
 	log "github.com/AlexStocks/log4go"
 )

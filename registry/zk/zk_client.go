@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/common"
+	"github.com/blastbao/dubbogo/common"
 )
 
 var (

@@ -14,7 +14,7 @@ import (
 
 import (
 	"fmt"
-	"github.com/AlexStocks/dubbogo/codec"
+	"github.com/blastbao/dubbogo/codec"
 )
 
 const (

@@ -25,10 +25,10 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/codec"
-	"github.com/AlexStocks/dubbogo/common"
-	"github.com/AlexStocks/dubbogo/registry"
-	"github.com/AlexStocks/dubbogo/transport"
+	"github.com/blastbao/dubbogo/codec"
+	"github.com/blastbao/dubbogo/common"
+	"github.com/blastbao/dubbogo/registry"
+	"github.com/blastbao/dubbogo/transport"
 )
 
 // 完成注册任务
@@ -114,7 +114,7 @@ func (this *rpcServer) handlePkg(servo interface{}, sock transport.Socket) {
 			return
 		}
 
-		// !!!! 雷同于consumer/rpc_client中那个关键的一句，把github.com/AlexStocks/dubbogo/transport & github.com/AlexStocks/dubbogo/codec结合了起来
+		// !!!! 雷同于consumer/rpc_client中那个关键的一句，把github.com/AlexStocks/dubbogo/transport & github.com/blastbao/dubbogo/codec结合了起来
 		// newRpcCodec(*transport.Message, transport.Socket, codec.NewCodec)
 		codec = newRpcCodec(&msg, sock, codecFunc)
 

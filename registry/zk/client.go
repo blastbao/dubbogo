@@ -22,9 +22,9 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/common"
-	"github.com/AlexStocks/dubbogo/registry"
-	"github.com/AlexStocks/dubbogo/version"
+	"github.com/blastbao/dubbogo/common"
+	"github.com/blastbao/dubbogo/registry"
+	"github.com/blastbao/dubbogo/version"
 )
 
 const (

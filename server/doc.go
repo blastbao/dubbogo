@@ -29,7 +29,7 @@ func (this *rpcServer) handlePkg(servo interface{}, sock transport.Socket) {
 	//   //   // func (j *jsonCodec) ReadHeader(m *codec.Message, mt codec.MessageType)
 	//   //   //   case codec.Request:
 	//   //   //   return j.s.ReadHeader(m)
-	// 	 //   //   // func (c *serverCodec) ReadHeader(m *codec.Message) error { // serverCodec, github.com/AlexStocks/dubbogo/codec
+	// 	 //   //   // func (c *serverCodec) ReadHeader(m *codec.Message) error { // serverCodec, github.com/blastbao/dubbogo/codec
 	// 	 //   //   //   c.dec.Decode(&raw)
 	// 	 //   //   //   json.Unmarshal(raw, &c.req) // 注意此处，c.req存储了请求的body
 	// 	 //   //   //   m.Id = c.seq

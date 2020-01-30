@@ -5,7 +5,7 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/registry"
+	"github.com/blastbao/dubbogo/registry"
 )
 
 // Selector builds on the registry as a mechanism to pick nodes

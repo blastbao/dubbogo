@@ -25,10 +25,10 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/codec"
-	"github.com/AlexStocks/dubbogo/common"
-	"github.com/AlexStocks/dubbogo/selector"
-	"github.com/AlexStocks/dubbogo/transport"
+	"github.com/blastbao/dubbogo/codec"
+	"github.com/blastbao/dubbogo/common"
+	"github.com/blastbao/dubbogo/selector"
+	"github.com/blastbao/dubbogo/transport"
 )
 
 const (
@@ -150,7 +150,7 @@ func (this *rpcClient) call(reqID uint64, ctx context.Context, address string, p
 		request: req,
 		closed:  make(chan bool),
 		// !!!!! 这个codec是rpc_codec,其主要成员是发送内容msg，网络层(transport)对象c，codec对象cf
-		// 这行代码把github.com/AlexStocks/dubbogo/codec dubbo/client github.com/AlexStocks/dubbogo/transport连接了起来
+		// 这行代码把github.com/AlexStocks/dubbogo/codec dubbo/client github.com/blastbao/dubbogo/transport连接了起来
 		// newRpcPlusCodec(*transport.Message, transport.Client, codec.Codec)
 		codec: newRpcPlusCodec(msg, c, cf),
 	}

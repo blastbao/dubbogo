@@ -7,7 +7,7 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/codec"
+	"github.com/blastbao/dubbogo/codec"
 )
 
 type jsonCodec struct {

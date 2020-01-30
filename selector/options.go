@@ -6,7 +6,7 @@ import (
 )
 
 import (
-	"github.com/AlexStocks/dubbogo/registry"
+	"github.com/blastbao/dubbogo/registry"
 )
 
 type Options struct {
